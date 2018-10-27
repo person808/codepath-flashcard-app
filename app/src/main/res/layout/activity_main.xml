@@ -10,9 +10,13 @@
         android:id="@+id/flashcard_question"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/card_shape"
+        android:elevation="2dp"
         android:gravity="center"
         android:text="What is the 50th state of America?"
         android:textAlignment="center"
+        android:textColor="@android:color/white"
         android:textSize="40sp" />
 
     <TextView
@@ -20,9 +24,24 @@
         android:visibility="invisible"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/correct_answer_shape"
+        android:elevation="2dp"
         android:layout_alignParentStart="true"
         android:gravity="center"
         android:text="Hawaii"
         android:textAlignment="center"
+        android:textColor="@android:color/white"
         android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/new_card_button"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/ic_plus_circle_thin" />
+
 </RelativeLayout>
