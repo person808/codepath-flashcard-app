@@ -44,4 +44,12 @@
         android:layout_marginBottom="16dp"
         app:srcCompat="@drawable/ic_plus_circle_thin" />
 
+    <ImageView
+        android:id="@+id/next_button"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignEnd="@+id/new_card_button"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/ic_next_arrow" />
+
 </RelativeLayout>
